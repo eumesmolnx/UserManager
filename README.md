@@ -51,6 +51,20 @@ password
 
 The access token need to be used in all changes endpoints as a Bearer Token authentication.
 
+## Test Users
+
+    UUID: a271263b-8fda-49ce-8f54-f81d99f6bb97
+    Name: João Silva
+    CPF: 03732936074
+    Password: 123123
+    Role: Administrator
+
+    UUID: 338ef0a3-03a1-425f-8fa8-31664b07bab9
+    Name: Rafael Martins
+    CPF: 51764198409
+    Password: 321321
+    Role: Common User
+
 ## Usage
 1. List All Users
 
