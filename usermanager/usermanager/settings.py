@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'usermanager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'igsdb',
-        'USER': 'igsuser',
-        'PASSWORD': 'igspass',
+        'NAME': 'userdb',
+        'USER': 'user',
+        'PASSWORD': 'userpass',
         'HOST': 'db',
         'PORT': 5432,
     }
