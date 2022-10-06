@@ -1,0 +1,59 @@
+commit 5af7dedda0a245c69b3ce1433e4b2a71dfd535e0
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 02:05:36 2022 -0300
+
+    Rest Framework Settings to JWT Authentication and error validation
+
+commit 7dc574007f11c4715301479c0bd0fdcba36257e4
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 02:03:59 2022 -0300
+
+    Add URLs to REST User endpoints and JWT Token Authentication
+
+commit 3a0b3e195a805bf40e8a61e0a0f9479d6fb67706
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 02:01:40 2022 -0300
+
+    Adjust Role permission in User viewset as IsAdmin
+
+commit a3f4987e1f8a9792e592a017ec3567899929b289
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:37:52 2022 -0300
+
+    Create View/Viewset of User and return Authentication Token
+
+commit 94ffb47a2276918ec35bd982812a1e6929e0dd7d
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:35:46 2022 -0300
+
+    Create User Serializers with CPF, Password and Role validators + encrypt + add Token authentication
+
+commit ce424654dabe00d2f4df6fafc6d541b848e2c36b
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:28:58 2022 -0300
+
+    Run Django migrate to create initial tables and custom User structure
+
+commit d12e9bc60b8ce66aa93fc159f939e1d1c0eae014
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:24:29 2022 -0300
+
+    Add Docker files and fix Postgress connection
+
+commit fbb436761f3b3fa846b129ef609c632f12c0c22f
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:19:01 2022 -0300
+
+    Create Custom User model with manager structure
+
+commit fcf6bfaeb314fa9de49e3d794845a055b4626c77
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Thu Oct 6 01:17:20 2022 -0300
+
+    Update Django settings to add App, Rest Framework, Django Filters and Postgres Database Connection
+
+commit 61ef2539dbbd04735e18c439bfc0f3754499d599
+Author: eumesmolnx <eumesmolnx@yahoo.com>
+Date:   Wed Oct 5 20:59:30 2022 -0300
+
+    Install Django, Django REST Framework and Psycopg2 + Create Django Project and Create Docker Files
