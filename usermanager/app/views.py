@@ -9,7 +9,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 class IsAdmin(permissions.BasePermission):
     def has_permission(self, request, view):
         if request.method in permissions.SAFE_METHODS:
-            return True
+            return hasattr(request.user, 'role')
         else:
             return hasattr(request.user, 'role') and request.user.role == 'ADMIN'
 
