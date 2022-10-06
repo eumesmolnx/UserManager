@@ -1,6 +1,3 @@
-from django.shortcuts import render
-
-# Create your views here.
 from rest_framework import viewsets
 from .serializers import UserSerializer
 from .models import User
@@ -14,7 +11,7 @@ class IsAdmin(permissions.BasePermission):
         if request.method in permissions.SAFE_METHODS:
             return True
         else:
-            return request.user.role == 'ADMIN'
+            return hasattr(request.user, 'role') and request.user.role == 'ADMIN'
 
 # Create your views here.
 class UserViewSet(viewsets.ModelViewSet):
